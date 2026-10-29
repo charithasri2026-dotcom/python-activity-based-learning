@@ -14,7 +14,7 @@ The program should calculate and display the total electricity bill based on the
 7. Display the consumer's name and total electricity bill.
 8. Stop.
 # Mermaid Flowchart
-
+```mermaid
 flowchart TD
     A([Start]) --> B[/Input consumer name and units/]
     B --> C{Units <= 100?}
@@ -26,7 +26,7 @@ flowchart TD
     F --> H
     G --> H
     H --> I([Stop])
-
+```
 
 
 
